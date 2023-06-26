@@ -1,0 +1,22 @@
+.google {
+  
+  display: block;
+  width: 400px;
+  margin-left: 586px;
+  margin-bottom: 10px;
+}
+
+.search {
+  width: 570px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.038);
+  border-radius: 300px;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: left;
+  color: rgb(117, 116, 116);
+  margin-left: 500px;
+}

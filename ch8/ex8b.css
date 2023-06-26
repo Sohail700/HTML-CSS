@@ -1,0 +1,12 @@
+.survey {
+  width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yes,
+.no {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
