@@ -1,0 +1,29 @@
+.profile {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+  vertical-align: middle;
+}
+.search-bar {
+  width: 300px;
+  vertical-align: middle;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.tweet-button {
+  vertical-align: middle;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
