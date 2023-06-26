@@ -1,0 +1,43 @@
+p {
+  font-family: Arial;
+}
+.email {
+  font-size: 15px;
+  color: rgb(109, 108, 108);
+}
+
+.search-bar {
+  width: 380px;
+  height: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
+.privacy {
+  font-size: 15px;
+  color: rgb(104, 104, 104);
+}
+.agree-button {
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  background-color: rgb(4, 105, 188);
+  color: white;
+  width: 300px;
+  height: 45px;
+  cursor: pointer;
+  transition: width 0.5s;
+}
+.agree-button:hover {
+  opacity: 0.8;
+  width: 380px;
+}
+.agree-button:active {
+  
+}
