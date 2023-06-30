@@ -1,0 +1,65 @@
+.profile {
+  display: block;
+  margin-top: 30px;
+}
+
+.profile-picture {
+  width: 80px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.picture {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 50px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Roboto, Arial ;
+}
+
+.info {
+  display: inline-block;
+  vertical-align: middle;
+  width: 400px;
+}
+.name{
+ font-size: 22px;
+ font-weight: 600;
+}
+.species {
+  margin-top: 3px;
+  font-size: 20px;
+  color: rgb(169, 169, 169);
+}
+.popular {
+  margin-top: 3px;
+  font-size: 16px;
+  color: rgb(169, 169, 169);
+} 
+
+.follow {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.follow-button{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  background-color: rgb(12, 143, 230);
+  color: white;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
