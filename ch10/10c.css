@@ -1,0 +1,38 @@
+.channel-thumnail {
+  display: inline-block;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-right: 0px;
+}
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.thumbnail {
+  width: 280px;
+  height: 150px;
+}
+
+.video-info {
+  display: inline-block;
+  vertical-align: top;
+  width: 330px;
+  margin-top: 3px;
+  margin-left: 0px;
+}
+
+.video-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 17px;
+}
+
+.channel-name {
+  margin-top: 20px;
+
+}
+.stats {
+  margin-top: 10px;
+}
