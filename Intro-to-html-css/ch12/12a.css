@@ -1,0 +1,77 @@
+.card1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.first {
+  background-color: lightblue;
+  width: 200px;
+}
+  
+.second {
+  background-color: lightpink;
+  width: 75px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.fst {
+  width: 50px;
+  background-color: lightblue;
+}
+
+.sec {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.trd {
+  background-color: lightblue;
+  width: 75px;
+}
+
+.card3 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+.item1 {
+  background-color: lightpink;
+}
+.item2 {
+  background-color: lightpink;
+}
+.item3 {
+  background-color: lightpink;
+}
+.item4 {
+  background-color: lightpink;
+}
+
+.card4 {
+  margin-top: 30px;
+  flex-direction: row;
+  display: flex;
+  border-width: 2px;
+  height: 70px;
+  border-color: gray;
+  border-style: solid;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-1 {
+  background-color: lightpink;
+
+}
+
+.item-2{
+  background-color: lightpink;
+}
