@@ -1,12 +1,23 @@
+/* Hearder section */
 .header {
   height: 55px;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(230, 230, 230);
 }
 
-
+/* 
+Left section starts here! */
 .left-section {
   display: flex;
   align-items: center;
@@ -20,7 +31,8 @@
   height: 20px;
 }
 
-
+/* 
+Middle section starts here! */
 .middle-section {
   flex: 1;
   margin-left: 70px;
@@ -71,7 +83,8 @@
   margin-top: 3px;
 }
 
-
+/* 
+Right section starts here! */
 .right-section {
   width: 180px;
   margin-right: 20px;
