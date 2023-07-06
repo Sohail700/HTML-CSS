@@ -1,7 +1,6 @@
 /* Hearder section */
 .header {
   height: 55px;
-  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,6 +15,7 @@
   border-bottom-style: solid;
   border-bottom-color: rgb(230, 230, 230);
 }
+
 
 /* 
 Left section starts here! */
