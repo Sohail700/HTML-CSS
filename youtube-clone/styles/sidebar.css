@@ -29,3 +29,27 @@
   font-family: Roboto,Arial;
   font-size: 10px;
 }
+
+
+/* footer section */
+.credit-section {
+  font-family: Roboto, arial;
+  color: rgb(18, 18, 18);
+  background-color: rgb(234, 234, 234);
+  position: fixed;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 300;
+}
+.credit {
+  font-size: 20px;
+  font-weight: 500;
+}
