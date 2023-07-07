@@ -4,7 +4,7 @@
   bottom: 0;
   top: 55px;
   background-color: white;
-  width: 70px;
+  width: 72px;
   z-index: 200;
   padding-top: 5px;
 }
@@ -26,30 +26,6 @@
   margin-bottom: 4px;
 }
 .sidebar-link div {
-  font-family: Roboto,Arial;
-  font-size: 10px;
-}
-
-
-/* footer section */
-.credit-section {
-  font-family: Roboto, arial;
-  color: rgb(18, 18, 18);
-  background-color: rgb(234, 234, 234);
-  position: fixed;
-  padding-left: 10px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 300;
-}
-.credit {
-  font-size: 20px;
+  font-size: 11px;
   font-weight: 500;
 }

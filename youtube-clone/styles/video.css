@@ -43,12 +43,12 @@ x
   row-gap: 30px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .video-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (min-width: 500px and max-width: 999px) {
+@media (min-width: 751px) and (max-width: 999px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -67,7 +67,6 @@ x
   bottom: 10px;
   font-size: 12px;
   font-weight: 500;
-  font-family: roboto, Arial, Helvetica, sans-serif;
   padding: 4px;
   border-radius: 2px;
 }

@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
   position: fixed;
   top: 0;
   right: 0;
@@ -55,7 +54,6 @@ Middle section starts here! */
   width: 0;
 }
 .search-bar::placeholder {
-  font-family: roboto,arial;
   font-size: 16px;
 }
 .search-icon {
@@ -77,9 +75,9 @@ Middle section starts here! */
 .voice-search-button,
 .upload-icon-container {
   position: relative;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
 }
 .search-button:hover,
 .voice-search-button:hover,
@@ -89,7 +87,6 @@ Middle section starts here! */
 .search-button .tooltip,
 .voice-search-button .tooltip,
 .upload-icon-container .tooltip{
-  font-family: Roboto,Arial;
   position: absolute;
   background-color: gray;
   color: white;
@@ -151,9 +148,8 @@ Right section starts here! */
   background-color: rgb(191, 6, 6);
   color: white;
   top: -2px;
-  right: -5px;
-  font-family: Roboto,Arial, Helvetica, sans-serif;
-  font-size: 11px;
+  right: -6px;
+  font-size: 10px;
   padding: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
