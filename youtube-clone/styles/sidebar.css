@@ -3,7 +3,8 @@
   left: 0;
   bottom: 0;
   top: 55px;
-  background-color:  #fff;
+  background-color: #fff;
+  width: 80px;
   z-index: 200;
   padding-top: 5px;
   transition: width .3s;
@@ -12,7 +13,7 @@
 
 .sidebar-link {
   height: 74px;
-  margin: 10px 10px;
+  margin-bottom: 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,9 +56,10 @@
   text-decoration: none;
 }
 .sidebar:hover div {
-  color: #1a1a1a; 
+  color: #1a1a1a;
+  
 }
 .sidebar-link div {
   font-weight: 700;
-  color:#333;
+  color: #333;
 }
