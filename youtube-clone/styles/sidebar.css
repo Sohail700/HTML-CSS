@@ -3,8 +3,7 @@
   left: 0;
   bottom: 0;
   top: 55px;
-  background-color: hsl(193, 100%, 98%);
-  width: 80px;
+  background-color:  #fff;
   z-index: 200;
   padding-top: 5px;
   transition: width .3s;
@@ -13,7 +12,7 @@
 
 .sidebar-link {
   height: 74px;
-  margin-bottom: 1px;
+  margin: 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,7 +35,7 @@
 
 .sidebar:hover {
   width: 200px;
-  background-color: hsl(195, 34%, 40%);
+  background-color:  hsl(198, 19%, 40%);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -56,10 +55,9 @@
   text-decoration: none;
 }
 .sidebar:hover div {
-  color: #1a1a1a;
-  
+  color: #1a1a1a; 
 }
 .sidebar-link div {
   font-weight: 700;
-  color: #1a1a1a;
+  color:#333;
 }

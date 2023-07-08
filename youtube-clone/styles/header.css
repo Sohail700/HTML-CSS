@@ -9,10 +9,12 @@
   right: 0;
   left: 0;
   z-index: 100;
-  background-color: hsl(193, 100%, 98%);
+  background-color: #fff;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(221, 221, 221);
+  border-width: 0.7px solid #d4d4d4;
+  
 }
 
 

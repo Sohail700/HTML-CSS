@@ -6,9 +6,16 @@
 }
 
 body {
+  background-color: #fff;
   font-family: Poppins,Roboto, Arial, Helvetica, sans-serif;
   margin-bottom: 500px;
   padding-top: 80px;
   padding-left: 96px;
   padding-right: 24px;
+}
+p {
+  color: #1c1c1c;
+}
+div {
+  color: #949494;
 }
