@@ -2,6 +2,10 @@
 <html>
 
   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
     <title>Youtube clone</title>
     <link  rel="icon"  href="https://img.icons8.com/?size=512&id=19318&format=png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +22,7 @@
   <body>
 
     <!-- Hearder section code starts here -->
-    <div class="header">
+    <header class="header">
 
       <div class="left-section">  <!--Left section-->
         <img class="menu" src="icons/hamburger-menu.svg">
@@ -42,27 +46,41 @@
           <img class="upload-icon" src="icons/upload.svg">
           <div class="tooltip">Create</div>
         </div>
-        <img class="youtube-app-icon" src="icons/youtube-apps.svg">
+        <div class="youtube-app-icon-container">
+          <img class="youtube-app-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">Apps</div>
+        </div>
+        
         <div class="notification-container">
           <img class="notification-icon" src="icons/notifications.svg">
           <div class="notification-count">3</div> 
+          <div class="tooltip">Notifications</div>
         </div>
-        <img class="current-user-picture" src="channel-pictures/profile.jpeg">
+        <a href="https://github.com/sohail700">
+          <img class="current-user-picture" src="channel-pictures/profile.jpeg">
+        </a>
       </div>
-    </div>
+    </header>
     
     <!-- sidebar code section starts here  -->
-    <div class="sidebar">
+    <nav class="sidebar">
       <div class="sidebar-link">
-        <img src="icons/home.svg">
+        <a href="https://www.youtube.com/">
+          <img src="icons/home.svg">
+        </a>
         <div>Home</div>
       </div>
       <div class="sidebar-link">
-        <img src="icons/explore.svg">
+        <a href="https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl">
+          <img src="icons/explore.svg">
+        </a>
         <div>Explore</div>
       </div>    
+      
       <div class="sidebar-link">
-        <img src="icons/subscriptions.svg">
+        <a href="https://www.youtube.com/feed/subscriptions">
+          <img src="icons/subscriptions.svg">
+        </a>
         <div>Subscriptions</div>
       </div>  
       <div class="sidebar-link">
@@ -77,208 +95,518 @@
         <img src="icons/library.svg">
         <div>Library</div>
       </div>  
-    </div>
+    </nav>
 
 
     <!-- main body section grid starts here -->
-    <div class="video-grid">
+    <main>
+      <div class="video-grid">
+        <div class="video-preveiw"> 
+          <div class="thumbnail-row">
+            <a  href="https://youtu.be/n2RNcPRtAiY">
+              <img  class="thumbnail" src="images/img1.bmp" >
+            </a>
+            
+            <div class="video-time">14&#58;20</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-pictures"> 
+              <a href="https://www.youtube.com/@mkbhd">
+                <img class="profile-picture" src="channel-pictures/channel1.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel1.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>Marques Brownlee</p>
+                  <p>15M Subscribers</p>
+                </div>
+              </div>
+            </div>
 
-      <div class="video-preveiw"> 
-        <div class="thumbnail-row">
-          <a  href="https://youtu.be/n2RNcPRtAiY">
-            <img  class="thumbnail" src="images/img1.bmp" >
-          </a>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preveiw">
           
-          <div class="video-time">14&#58;20</div>
-        </div>
-  
-        <div class="video-info-grid">
-          <div class="channel-pictures"> 
-            <a href="https://www.youtube.com/@mkbhd">
-              <img class="profile-picture" src="channel-pictures/channel1.jpeg">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/mP0RAo9SKZk">
+              <img class="thumbnail" src="images/img2.webp">
             </a>
+            <div class="video-time">10&#58;20</div>
           </div>
-  
-          <div class="video-info">
-            <p class="video-title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-            <p class="video-author">
-              Marques Brownlee
-            </p>
-            <p class="video-stats">
-              3.4M views &#183; 6 months ago
-            </p>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures"> 
+              <a href="https://www.youtube.com/@markiplier">
+                <img class="profile-picture" src="channel-pictures/channel2.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel2.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>Markiplier</p>
+                  <p>9M Subscribers</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Try Not TO Laugh Challenge #9
+              </p>
+              <p class="video-author">
+                Markiplier
+              </p>
+              <p class="video-stats">
+                19M views &#183; 2 months ago
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-  
-      <div class="video-preveiw">
-        
-        <div class="thumbnail-row">
-          <a href="https://youtu.be/mP0RAo9SKZk">
-            <img class="thumbnail" src="images/img2.webp">
-          </a>
-          <div class="video-time">10&#58;20</div>
-        </div>
-  
-        <div class="video-info-grid">
-  
-          <div class="channel-pictures"> 
-            <a href="https://www.youtube.com/@markiplier">
-              <img class="profile-picture" src="channel-pictures/channel2.jpeg">
+    
+        <div class="video-preveiw">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/FgjPQQeTh1w">
+              <img class="thumbnail" src="images/img3.webp">
             </a>
+            <div class="video-time">5&#58;20</div>
           </div>
-  
-          <div class="video-info">
-            <p class="video-title">
-              Try Not TO Laugh Challenge #9
-            </p>
-            <p class="video-author">
-              Markiplier
-            </p>
-            <p class="video-stats">
-              19M views &#183; 2 months ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="video-preveiw">
-        <div class="thumbnail-row">
-          <a href="https://youtu.be/FgjPQQeTh1w">
-            <img class="thumbnail" src="images/img3.webp">
-          </a>
-          <div class="video-time">5&#58;20</div>
-        </div>
-  
-        <div class="video-info-grid">
-  
-          <div class="channel-pictures"> 
-            <a href="https://www.youtube.com/@SSSniperWolf">
-              
-            <img class="profile-picture" src="channel-pictures/channel3.jpeg">
-            </a>
-          </div>
-  
-          <div class="video-info">
-            <p class="video-title">
-              Crazy Tik Toks Taken Moments Before DISASTER
-            </p>
-            <p class="video-author">
-              SSSniperWolf
-            </p>
-            <p class="video-stats">
-              12M views &#183; 1 year ago
-            </p>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures"> 
+              <a href="https://www.youtube.com/@SSSniperWolf">
+                
+              <img class="profile-picture" src="channel-pictures/channel3.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel3.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>SSSniperWolf</p>
+                  <p>11.4M Subscribers</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+              <p class="video-author">
+                SSSniperWolf
+              </p>
+              <p class="video-stats">
+                12M views &#183; 1 year ago
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-  
-      <div class="video-preveiw">
-        
-        <div class="thumbnail-row">
-          <a href="https://youtu.be/094y1Z2wpJg">
-            <img class="thumbnail" src="images/img4.webp">
-          </a>
+    
+        <div class="video-preveiw">
           
-          <div class="video-time">15&#58;50</div>
-        </div>
-  
-        <div class="video-info-grid">
-  
-          <div class="channel-pictures">
-            <a href="https://www.youtube.com/@veritasium">
-              
-            <img class="profile-picture" src="channel-pictures/channel4.jpeg">
-            </a> 
-          </div>
-  
-          <div class="video-info">
-            <p class="video-title">
-              The Simplest Math Problem No One Can Solve - Collatz Conjecture
-            </p>
-            <p class="video-author">
-              Veritasium
-            </p>
-            <p class="video-stats">
-              18M views &#183; 4 months ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="video-preveiw">
-        
-        <div class="thumbnail-row">
-          <a href="https://youtu.be/86CQq3pKSUw">
-            <img class="thumbnail" src="images/img5.webp">
-          </a>
-          <div class="video-time">9&#58;40</div>
-        </div>
-  
-        <div class="video-info-grid">
-  
-          <div class="channel-pictures"> 
-            <a href="https://www.youtube.com/@CSDojo">
-              <img class="profile-picture" src="channel-pictures/channel5.jpeg">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/094y1Z2wpJg">
+              <img class="thumbnail" src="images/img4.webp">
             </a>
+            
+            <div class="video-time">15&#58;50</div>
           </div>
-  
-          <div class="video-info">
-            <p class="video-title">
-              Kadane's Algorithm to Maximum Sum Subarray Problem
-            </p>
-            <p class="video-author">
-              CS Dojo
-            </p>
-            <p class="video-stats">
-              519K views &#183; 5 years ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="video-preveiw">
-        
-        <div class="thumbnail-row">
-          <a href="https://youtu.be/yXWw0_UfSFg">
-            <img class="thumbnail" src="images/img6.webp">
-          </a>
-          <div class="video-time">13&#58;50</div>
-        </div>
-  
-        <div class="video-info-grid">
-  
-          <div class="channel-pictures">
-            <a href="https://www.youtube.com/@MrBeast">
-              <img class="profile-picture" src="channel-pictures/channel6.jpeg">
-            </a> 
-          </div>
-  
-          <div class="video-info">
-            <p class="video-title">
-              Anything You Can Fit In The Circle I’ll Pay For
-            </p>
-            <p class="video-author">
-              MrBeast
-            </p>
-            <p class="video-stats">
-              141M views &#183; 1 year ago
-            </p>
-          </div>
-        </div>
-      </div>
-  
-    </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures">
+              <a href="https://www.youtube.com/@veritasium">
+                
+              <img class="profile-picture" src="channel-pictures/channel4.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel4.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>Veritasium</p>
+                  <p>17.5M Subscribers</p>
+                </div>
+              </div> 
+            </div>
 
+            <div class="video-info">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+              <p class="video-author">
+                Veritasium
+              </p>
+              <p class="video-stats">
+                18M views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preveiw">
+          
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/86CQq3pKSUw">
+              <img class="thumbnail" src="images/img5.webp">
+            </a>
+            <div class="video-time">9&#58;40</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures"> 
+              <a href="https://www.youtube.com/@CSDojo">
+                <img class="profile-picture" src="channel-pictures/channel5.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel5.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>CS Dojo</p>
+                  <p>3.2M Subscribers</p>
+                </div>
+              </div>
+            </div>
 
-    <!-- Foot-section code starts here -->
-    <div class="credit-section">
-      <div class="credit">
-        By Sohail Khan&#169;
+            <div class="video-info">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="video-author">
+                CS Dojo
+              </p>
+              <p class="video-stats">
+                519K views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preveiw">
+          
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/yXWw0_UfSFg">
+              <img class="thumbnail" src="images/img6.webp">
+            </a>
+            <div class="video-time">13&#58;50</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures">
+              <a href="https://www.youtube.com/@MrBeast">
+                <img class="profile-picture" src="channel-pictures/channel6.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel6.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>MrBeast</p>
+                  <p>165M Subscribers</p>
+                </div>
+              </div> 
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                141M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preveiw">
+          
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/yXWw0_UfSFg">
+              <img class="thumbnail" src="images/img6.webp">
+            </a>
+            <div class="video-time">13&#58;50</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures">
+              <a href="https://www.youtube.com/@MrBeast">
+                <img class="profile-picture" src="channel-pictures/channel6.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel6.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>MrBeast</p>
+                  <p>165M Subscribers</p>
+                </div>
+              </div> 
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                141M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preveiw">
+          
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/yXWw0_UfSFg">
+              <img class="thumbnail" src="images/img6.webp">
+            </a>
+            <div class="video-time">13&#58;50</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures">
+              <a href="https://www.youtube.com/@MrBeast">
+                <img class="profile-picture" src="channel-pictures/channel6.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel6.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>MrBeast</p>
+                  <p>165M Subscribers</p>
+                </div>
+              </div> 
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                141M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preveiw">
+          
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/yXWw0_UfSFg">
+              <img class="thumbnail" src="images/img6.webp">
+            </a>
+            <div class="video-time">13&#58;50</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures">
+              <a href="https://www.youtube.com/@MrBeast">
+                <img class="profile-picture" src="channel-pictures/channel6.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel6.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>MrBeast</p>
+                  <p>165M Subscribers</p>
+                </div>
+              </div> 
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                141M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preveiw">
+          
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/yXWw0_UfSFg">
+              <img class="thumbnail" src="images/img6.webp">
+            </a>
+            <div class="video-time">13&#58;50</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures">
+              <a href="https://www.youtube.com/@MrBeast">
+                <img class="profile-picture" src="channel-pictures/channel6.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel6.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>MrBeast</p>
+                  <p>165M Subscribers</p>
+                </div>
+              </div> 
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                141M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preveiw">
+          
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/yXWw0_UfSFg">
+              <img class="thumbnail" src="images/img6.webp">
+            </a>
+            <div class="video-time">13&#58;50</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures">
+              <a href="https://www.youtube.com/@MrBeast">
+                <img class="profile-picture" src="channel-pictures/channel6.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel6.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>MrBeast</p>
+                  <p>165M Subscribers</p>
+                </div>
+              </div> 
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                141M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preveiw">
+          
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/yXWw0_UfSFg">
+              <img class="thumbnail" src="images/img6.webp">
+            </a>
+            <div class="video-time">13&#58;50</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-pictures">
+              <a href="https://www.youtube.com/@MrBeast">
+                <img class="profile-picture" src="channel-pictures/channel6.jpeg">
+              </a>
+              <div class="channel-info">
+                <div>
+                  <img class="channel-info-image" class="profile-picture" src="channel-pictures/channel6.jpeg">
+                </div>
+                
+                <div class="channel-info-content">
+                  <p>MrBeast</p>
+                  <p>165M Subscribers</p>
+                </div>
+              </div> 
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                141M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
       </div>
-    </div>
+  
+  
+      <!-- Foot-section code starts here -->
+      <div class="credit-section">
+        <a href="https://github.com/sohail700" target="_blank">
+          <div class="credit">
+            By Sohail Khan&#169;
+          </div>
+        </a>
+      </div>
+    </main>
+    
   </body>
 </html>
 
