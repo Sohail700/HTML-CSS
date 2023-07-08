@@ -1,7 +1,7 @@
 /* footer section */
 .credit-section {
   color: rgb(18, 18, 18);
-  background-color: rgb(232, 232, 232);
+  background-color: hsl(193, 100%, 98%);
   position: fixed;
   padding-left: 10px;
   padding-top: 3px;
@@ -9,7 +9,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +19,7 @@
   font-size: 20px;
   font-weight: 500;
   border-radius: 10px;
-  background-color: rgb(194, 192, 192);
+  background-color: hsl(195, 34%, 40%);
   padding: 10px 15px;
   color: #fff;
 }

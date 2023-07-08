@@ -3,10 +3,11 @@
   left: 0;
   bottom: 0;
   top: 55px;
-  background-color: rgb(255, 255, 255);
-  width: 72px;
+  background-color: hsl(193, 100%, 98%);
+  width: 80px;
   z-index: 200;
   padding-top: 5px;
+  transition: width .3s;
 }
 
 
@@ -35,8 +36,7 @@
 
 .sidebar:hover {
   width: 200px;
-  transition: width .3s;
-  background-color: #e2e2e2;
+  background-color: hsl(195, 34%, 40%);
 }
 .sidebar:hover .sidebar-link {
   flex-direction: row;
@@ -48,4 +48,16 @@
   font-size: 15px;
   padding-bottom: 5px;
   font-weight: 600;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+.sidebar:hover div {
+  color: #1a1a1a;
+  
+}
+.sidebar-link div {
+  font-weight: 700;
+  color: #1a1a1a;
 }
