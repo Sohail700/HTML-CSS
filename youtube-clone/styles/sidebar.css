@@ -37,6 +37,8 @@
 .sidebar:hover {
   width: 200px;
   background-color: hsl(195, 34%, 40%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .sidebar:hover .sidebar-link {
   flex-direction: row;
