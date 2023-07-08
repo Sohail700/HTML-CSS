@@ -24,14 +24,48 @@ Left section starts here! */
   display: flex;
   align-items: center;
 }
-.menu {
-  height: 24px;
-  margin-left: 24px;
-  margin-right: 24px;
+.menu:hover {
+  cursor: pointer;
 }
 .youtube-logo {
   height: 20px;
 }
+:root {
+  --clr-dark: #070a13;
+  --clr-light: #f1f5f9;
+}
+
+.dark-mode {
+  --clr-light: #070a13;
+  --clr-dark: #f1f5f9;
+}
+
+.left-section button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.dark .theme-toggle {
+  width: 30px;
+  height: 40px;
+  margin: 0;
+}
+.dark {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 12px;
+  justify-content: center;
+  align-items: center;
+}
+.dark p {
+  font-size: 10px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
 
 /* 
 Middle section starts here! */
@@ -53,7 +87,7 @@ Middle section starts here! */
   border: 1px solid rgb(199, 199, 199);
   border-radius: 20px;
   box-shadow: inset 0px 0px 10px rgb(0,0,0,0.015);
-  width: 0;
+  width: 100px;
 }
 .search-bar::placeholder {
   font-size: 16px;

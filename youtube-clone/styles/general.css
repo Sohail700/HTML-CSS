@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #fff;
+  
   font-family: Poppins,Roboto, Arial, Helvetica, sans-serif;
   margin-bottom: 500px;
   padding-top: 80px;
@@ -15,7 +15,11 @@ body {
 }
 p {
   color: #1c1c1c;
+  font-family: Poppins,Roboto, Arial, Helvetica, sans-serif;
 }
 div {
   color: #949494;
+}
+main {
+  font-weight: 700;
 }
